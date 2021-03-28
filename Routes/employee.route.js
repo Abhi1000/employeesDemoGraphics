@@ -5,6 +5,8 @@ var jwt = require('jsonwebtoken');
 
 process.env.SECRET_KEY = "employee-demographics-secret-key";
 
+//refer mock.json file for testing purpose...
+
 // route for checking JWTtoken which is default one(i.e. token is essential for accessing any of following routes)...
 router.use(function (req, res, next) {
     var token = req.body.token || req.headers['token'];
