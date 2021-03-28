@@ -1,0 +1,22 @@
+{
+  "name": "employees-demographics",
+  "version": "1.0.0",
+  "description": "REST API's for getting employees demographics",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "jwt",
+    "express"
+  ],
+  "author": "Abhishek",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^7.4.2",
+    "mysql": "^2.14.1"
+  }
+}
